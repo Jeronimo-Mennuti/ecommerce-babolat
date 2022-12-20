@@ -1,0 +1,185 @@
+body{
+position:absolute;
+}
+
+/* CSS HEADER*/
+header{
+display:grid;
+height: 70px;
+margin-bottom: 50px;
+background-color: #73ecf7;
+box-shadow: black;
+}
+
+.logoHeader1{
+display:flex;
+height: 65px;
+}
+
+.buscador{
+display:flex;
+align-items: flex-start;
+}
+
+.carrito{
+display:flex;
+justify-content: center;
+align-items: stretch;
+cursor:pointer;
+}
+
+form{
+display:grid;
+align-items: center;
+justify-content: center;
+align-items: stretch;
+}
+
+/*CSS MODAL */
+
+.modal-header{
+justify-content: space-around;
+background-color: white;
+color:black;
+align-items: flex-start;
+}
+
+.modal-header-title{
+font-size: 45px;
+}
+
+.modal-header-button{
+cursor:pointer;
+padding-left: 750px;
+}
+
+.modal-container{
+width:50%;
+margin: 0 50%;
+max-height: 70vh;
+color:#121212;
+background: white;
+display:flex;
+flex-direction: column;
+align-items:center;
+position:fixed;
+overflow: auto;
+z-index: 25;
+top: 8vh;
+box-shadow: 3px 3px 10px rgb(153, 153, 153);
+border-radius: 10px;
+font-family: 'Prompt', sans-serif;
+}
+
+.modal-container > .modal-content{
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+align-items:center;
+width:70%;
+margin:10px;   
+}
+
+.modal-container > div{
+height:120px;
+width:120px;
+}
+
+.modal-container::-webkit-scrollbar{
+display:none;
+}
+
+.total-content{
+font-size: 20px;
+padding:30px;
+}
+
+.modalCantidad{
+box-shadow: #121212;
+display:flex;
+padding: 5px;
+}
+
+.modal-content{
+box-shadow: 1px 2px 5px rgb(155, 155, 155);
+display:flex;
+}
+/* CSS CARRITO */
+
+.botonColor{
+background-color: #55d2de;
+border:#73ecf7;
+}
+
+.boton{
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
+.cantidadCarrito{
+background-color:#ff0000;
+color:#ffffff;
+border-radius: 50%;
+font-size: 15px;
+padding:4px;
+top:2px;
+right:115px;
+position:absolute;
+}
+
+.delete-raqueta{
+cursor:pointer;
+display:flex;
+margin-bottom:100px;
+}
+
+.sumar{
+cursor:pointer;
+margin-left: 15px;
+margin-top: 11px;
+}
+
+.restar{
+cursor:pointer;
+margin-right: 15px;
+margin-top: 11px;
+}
+
+.raquetaCantidad{
+font-size: 25px;
+}
+
+/* CSS CONTENIDO */
+.shopContent{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+text-align:center;
+justify-content: flex-end;
+}
+
+.imgRaqueta{
+height:250px;
+}
+
+.imgRaquetaModal{
+height:100px;
+}
+
+/* CSS SUBTITULO RANKING */
+
+.ranking{
+display:flex;
+justify-content: center;
+font-family: 'Prompt', sans-serif;
+background-color: #73ecf7;
+margin-top: 100px;
+}
+
+.characters{
+display:flex;
+margin-top: 100px;
+flex-wrap: wrap;
+text-align: center;
+}
